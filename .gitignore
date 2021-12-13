@@ -1,0 +1,9 @@
+# Ignore visual studio code
+.vscode
+
+# Ignore all video files
+*.mp4
+
+# Ignore all picture files
+*.png
+*.jpg
