@@ -2,11 +2,11 @@
 
 Using the opencv and mediapipe libaries, can be found here:
 
-[Mediapipe hands pipeline][https://google.github.io/mediapipe/solutions/hands.html]
+> [Mediapipe Hands pipeline](https://google.github.io/mediapipe/solutions/hands.html)
+> 
+> [OpenCv Haarcascades](https://github.com/opencv/opencv/tree/master/data/haarcascades)
 
-[OpenCv Haarcascades][https://github.com/opencv/opencv/tree/master/data/haarcascades]
-
-The mediapipe is for hands, the opencv cascade is for face and eyes
+The mediapipe is for Hand tracking, the opencv cascade is for face and eye tracking
 
 The `footageAnalyze.py` script will scan each frame of footage from a given video capture, then isolate these things:
 - A given rectangle where a face is detected
